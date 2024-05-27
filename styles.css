@@ -37,7 +37,15 @@ h1 {
 }
 
 header {
-  font-size: 30px;
+  font-size: 40px;
+}
+
+.li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 @media screen and (max-width: 500px) {
