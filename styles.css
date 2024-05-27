@@ -1,6 +1,5 @@
 body {
-  background-color: #beecf9;
-  display: flex;
+  background-color: #c4f3c0;
 }
 
 * {
@@ -19,7 +18,7 @@ ul li {
 }
 
 ul li:hover {
-  background-color: rgb(7, 124, 135);
+  background-color: rgb(245, 72, 245);
 }
 
 li a {
@@ -27,8 +26,22 @@ li a {
   font-size: 18px;
   color: black;
 }
+main {
+  display: flex;
+}
 
 h1 {
   text-align: center;
   padding: 10px;
+}
+header{
+  font-size: 30px;
+}
+
+@media screen and (max-width:500px) {
+  body{
+    background-color: rgb(71, 7, 7);
+    color: white;
+  }
+  
 }
