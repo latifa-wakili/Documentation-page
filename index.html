@@ -4,47 +4,44 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <main id="main-doc">
   <div>
     <nav id="navbar">
     <ul>
-      <section class="main-section">
-      <li><a href="#c1" class="nav-link">Js Tutorial</a></li>
-    </section>
-    <section class="main-section">
+     
+      <li><a href="#c1" class="nav-link">JavaScript</a></li>
+  
+  
       <li><a href="#c2" class="nav-link">Js Introduction</a></li>
-    </section>
-    <section class="main-section">
-      <li><a href="#c3" class="nav-link">Output</a></li>
-    </section>
-    <section class="main-section">
-      <li><a href="#" class="nav-link">Js Where Do</a></li>
-    </section>
-    <section class="main-section">
-      <li><a href="#" class="nav-link">Statement</a></li>
-    </section>
+  
+   
+      <li><a href="#c3" class="nav-link">Js Where Do</a></li>
+  
+  
+      <li><a href="c4" class="nav-link">JavaScript Object Definition</a></li>
+  
+      <li><a href="c5" class="nav-link">JavaScript Classes</a></li>
+   
       <li><a href="#" >Syntax</a></li>
       <li><a href="#">Comments</a></li>
       <li><a href="#">variables</a></li>
       <li><a href="#">Let</a></li>
       <li><a href="#">Const</a></li>
       <li><a href="#">Operator</a></li>
-      <li><a href="#">Arithmetic</a></li>
-      <li><a href="#">Assignment</a></li>
-      <li><a href="#"> Data Types</a></li>
     </ul>
     </section>
     </nav>
   </div>
 <div>
-<p id="c1">
-<h1>JavaScript</h1>J
-avaScript is a programming language used to create dynamic content for websites. It achieves this by adding new HTML elements while modifying existing ones.
+
+<section class="main-section" id="JavaScript">
+  <h1 id="c1">JavaScript</h1> 
+  <code><p>JavaScript is a programming language used to create dynamic content for websites. It achieves this by adding new HTML elements while modifying existing ones.
 <p>JavaScript syntax is the set of rules, how JavaScript programs are constructed:</p>
-<p>How to create variables:</p>
+<p>How to create variables:</p></code>
 var x;
 <br/>
 let y;
@@ -56,26 +53,62 @@ y = 6;
 <br/>
 let z = x + y;  
 </p>
+</section>
 <br/>
-<h1>Js Introduction</h1>
-  <p id="c2">
+<section class="main-section" id="Js_Introduction">
+  <h1 id="c2">Js Introduction</h1>
+ <code><p>
     JavaScript is an open-source programming language designed for creating web-centric applications. It is lightweight and interpreted which makes it much faster than other languages and is integrated with HTML making it easier to implement in web applications.
 
     In this Introduction to JavaScript article, you will learn all about JavaScript, the backbone of web development, and understand what exactly this language is and why and how this language is used across various fields.
       
     JavaScript is critical for web development, and if you’ve ever thought about choosing that career path, you’d surely have come across this language. And probably, that’s why you are here in the first place.
-  </p>
-  <h1>Js Where Do</h1>
-  <p id="c3">
+  </p></code> </section>
+<section class="main-section" id="Js_Where_Do">
+  <h1 id="c3">Js Where Do</h1>
+ <code><p>
     JavaScript Output Methods and Properties
     There are a total of six ways to display text and/or content with JavaScript, depending on where you want to write it to; the first three are properties, while the other three are methods:
-      
     The innerHTML, innerText and textContent properties written into an HTML element.
     The document.write() method writes directly into the HTML output.
     The window.alert() method displays an alert box, suitable for displaying error messages and the like.
     The console.log() method writes to the browser console, making it ideal for displaying debugging information.
     The rest of this programming tutorial will delve into each of these methods and properties.
-  </p>
+  </code> </p></section>
+  <section class="main-section" id="JavaScript_Object_Definition">
+    <h1 id="c4">JavaScript Object Definition</h1>
+ <code><p>Methods for Defining JavaScript Objects
+    Using an Object Literal
+    Using the new Keyword
+    Using an Object Constructor
+    Using Object.assign()
+    Using Object.create()
+    Using Object.fromEnties()
+    JavaScript Object Litera
+    An object literal is a list of property names:values inside curly braces {}.
+    {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"};
+    </code> <p>Note:
+    An object literal is also callled an object initializer.</p>
+    </p></section>
+  <section class="main-section" id="JavaScript_Classes">
+    <h1 id="c5">JavaScript Classes</h1>
+    <code><p>ECMAScript 2015, also known as ES6, introduced JavaScript Classes.
+      JavaScript Classes are templates for JavaScript Objects.
+      JavaScript Class Syntax
+      Use the keyword class to create a class.
+      Always add a method named constructor():
+      Syntax
+     </code><p> class ClassName {
+        constructor() { ... }
+      }
+      Example
+      class Car {
+        constructor(name, year) {
+          this.name = name;
+          this.year = year;
+        }
+      }</p>
+    </p></section>
 </div>
 </main>
 </body>
