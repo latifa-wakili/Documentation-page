@@ -1,11 +1,8 @@
 # Project Title 🚀
-
+Documentation_page
 ## Project Description 📝
 
 > this project is useful for who want to now some basic information about JS.
-
-
-
 Examples:
 
 - When I started learning html and CSS at the first I searched about those.
@@ -36,7 +33,6 @@ Examples:
 
 ## Demo 📸
 
-Include a demo or animated GIF of your project. You can use tools like [asciinema](https://asciinema.org/) to record your terminal sessions.
 
 ![Demo](c:\Users\DELL\OneDrive\Pictures\Screenshots\Screenshot (8).png)
 
