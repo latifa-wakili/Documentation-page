@@ -34,7 +34,7 @@ Examples:
 ## Demo 📸
 
 
-![Demo](c:\Users\DELL\OneDrive\Pictures\Screenshots\Screenshot (8).png)
+![Demo](pic.png)
 
 ## Technologies Used 🛠️
 
