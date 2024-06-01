@@ -8,31 +8,9 @@ Examples:
 - When I started learning html and CSS at the first I searched about those.
 - It can give important and basic info about JS.
 - whith this project I learned what is JS and how it is useful.
-
-```html
-<!--  </header>
-    <li class="li">Writing into an alert box, using window.alert().</li>
-    <li class="li">Writing into the browser console, using console.log().</li> -->
 ```
-
-```css
-/* 
-.li {
-  font-family: Arial, Helvetica, sans-serif;
-}
- */
 ```
-
-```javascript
-//  class Car {
-        constructor(name, year) {
-          this.name = name;
-          this.year = year;
-        }You can also include JavaScript code snippets.
-```
-
 ## Demo 📸
-
 
 ![Demo](pic.png)
 
@@ -47,13 +25,12 @@ Examples:
 Provide step-by-step instructions on how to install and set up your project. Include any dependencies or prerequisites that need to be installed.
 
 ```bash
-# git.
+# git. #git clone git@github.com:latifa-wakili/Documentation-page.git
 ```
 
 ```bash
-# github.
+# github.# cd Documentation-page
 ```
-git@github.com:latifa-wakili/Documentation-page.git cd Documentation-page
 ```bash
 # vscode.
 ```
