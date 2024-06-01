@@ -25,11 +25,11 @@ Examples:
 Provide step-by-step instructions on how to install and set up your project. Include any dependencies or prerequisites that need to be installed.
 
 ```bash
-# git. #git clone git@github.com:latifa-wakili/Documentation-page.git
+#git clone git@github.com:latifa-wakili/Documentation-page.git
 ```
 
 ```bash
-# github.# cd Documentation-page
+# cd Documentation-page
 ```
 ```bash
 # vscode.
